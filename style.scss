@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    header {
+        display: flex;
+        justify-content: center;
+        margin: 1rem auto;
+    }
+}
+
+.card {
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        padding: 0.3rem;
+    }
+    form {
+        padding: 0.3rem;
+        input {
+            padding: 0.15rem;
+        }
+    }
+    ul {
+        margin: 1rem auto;
+        background-color: yellow;
+        width: 90%;
+        list-style-type: none;
+        li {
+            padding: 0.3rem;
+            margin: 0.1rem;
+            background-color: purple;
+        }
+    }
+}
+.protein {
+    background-color: rgb(224, 45, 84);
+}
