@@ -15,6 +15,7 @@ body header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1rem;
 }
 .card h1 {
   padding: 0.3rem;
@@ -27,16 +28,42 @@ body header {
 }
 .card ul {
   margin: 1rem auto;
-  background-color: yellow;
   width: 90%;
   list-style-type: none;
 }
 .card ul li {
+  display: flex;
   padding: 0.3rem;
   margin: 0.1rem;
-  background-color: purple;
+  justify-content: space-between;
 }
 
 .protein {
-  background-color: rgb(224, 45, 84);
+  background: rgb(224, 45, 84);
+}
+.protein li {
+  background: pink;
+}
+
+.carbohydrate {
+  background: orange;
+}
+.carbohydrate li {
+  background: rgb(238, 238, 96);
+}
+
+.vegetable {
+  background: green;
+}
+.vegetable li {
+  background: palegreen;
+}
+
+.randomizer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.randomizer button {
+  padding: 0.3rem;
 }/*# sourceMappingURL=style.css.map */

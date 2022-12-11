@@ -11,12 +11,12 @@ body {
         margin: 1rem auto;
     }
 }
-
 .card {
     padding: 0.3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1rem;
     h1 {
         padding: 0.3rem;
     }
@@ -28,16 +28,39 @@ body {
     }
     ul {
         margin: 1rem auto;
-        background-color: yellow;
         width: 90%;
         list-style-type: none;
         li {
+            display: flex;
             padding: 0.3rem;
             margin: 0.1rem;
-            background-color: purple;
+            justify-content: space-between;
         }
     }
 }
 .protein {
-    background-color: rgb(224, 45, 84);
+    background: rgb(224, 45, 84);
+    li {
+        background: pink;
+    }
+}
+.carbohydrate {
+    background: orange;
+    li {
+        background: rgb(238, 238, 96);
+    }
+}
+.vegetable {
+    background: green;
+    li {
+        background: palegreen;
+    }
+}
+.randomizer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    button {
+        padding: 0.3rem;
+    }
 }
