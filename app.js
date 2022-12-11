@@ -72,7 +72,7 @@ var dinnerApp = {
     },
     randomize: function() {
         let li = document.getElementById('protList').children;
-        for ( i in li)
+        for ( each in li)
         console.log(li.innerHTML);  
     }
 }
