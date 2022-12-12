@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: rgb(163, 163, 163);
     header {
         display: flex;
         justify-content: center;
@@ -37,22 +38,29 @@ body {
             justify-content: space-between;
         }
     }
+    h2 {
+        padding: 0.3rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        width: 90%;
+        text-align: center;
+    }
 }
 .protein {
     background: rgb(224, 45, 84);
-    li {
+    li, h2{
         background: pink;
     }
 }
 .carbohydrate {
     background: orange;
-    li {
+    li, h2 {
         background: rgb(238, 238, 96);
     }
 }
 .vegetable {
     background: green;
-    li {
+    li, h2 {
         background: palegreen;
     }
 }

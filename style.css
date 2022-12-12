@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(163, 163, 163);
+}
 body header {
   display: flex;
   justify-content: center;
@@ -37,25 +40,32 @@ body header {
   margin: 0.1rem;
   justify-content: space-between;
 }
+.card h2 {
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  width: 90%;
+  text-align: center;
+}
 
 .protein {
   background: rgb(224, 45, 84);
 }
-.protein li {
+.protein li, .protein h2 {
   background: pink;
 }
 
 .carbohydrate {
   background: orange;
 }
-.carbohydrate li {
+.carbohydrate li, .carbohydrate h2 {
   background: rgb(238, 238, 96);
 }
 
 .vegetable {
   background: green;
 }
-.vegetable li {
+.vegetable li, .vegetable h2 {
   background: palegreen;
 }
 
